@@ -1,0 +1,60 @@
+/* add fonts family to font-family select  */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.open{
+font-family:"Open Sans", sans-serif; ;
+}
+
+.cairo{
+    font-family:"Cairo", sans-serif;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+/* add font color to font color select */
+
+.blue{
+    color:blue;
+}
+
+.red{
+    color:red;
+}
+
+.gray{
+    color:gray;
+}
+
+.gold{
+    color:gold;
+}
+
+.pink{
+    color:pink;
+}
+
+.orange{
+    color:orange
+}
+
+/* reult div */
+
+.result{
+    text-align: center;
+    margin:20px auto;
+    padding:20px 30px;
+    width:fit-content;
+    background-color:rgba(0, 0, 0, 6%);
+
+}
+
+body{
+ background-repeat: no-repeat;
+ background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
